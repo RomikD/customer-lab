@@ -11,8 +11,8 @@ fields:
 - name: weight
   type: number
   label: weight
-  description: kjhgfdsrtghjhgffff
-  default: 0
+  description: '2121'
+  default: 129876543
   required: true
   config:
     min: 
