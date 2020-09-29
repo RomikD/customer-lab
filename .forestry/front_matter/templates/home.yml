@@ -8,5 +8,15 @@ fields:
     required: false
   label: Text field test
   description: Found on
+- name: weight
+  type: number
+  label: weight
+  description: kjhgfdsrtghjhgffff
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - content/test.md
