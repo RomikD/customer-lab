@@ -1,4 +1,10 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: text_field_test
+  type: text
+  config:
+    required: false
+  label: Text field test
+  description: Found on
