@@ -21,3 +21,4 @@ fields:
     required: true
 pages:
 - content/test.md
+- content/test.md-copy.md
