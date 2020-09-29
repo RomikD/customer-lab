@@ -18,5 +18,6 @@ fields:
     min: 
     max: 
     step: 
+    required: true
 pages:
 - content/test.md
