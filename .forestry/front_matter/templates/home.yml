@@ -8,3 +8,5 @@ fields:
     required: false
   label: Text field test
   description: Found on
+pages:
+- content/test.md
