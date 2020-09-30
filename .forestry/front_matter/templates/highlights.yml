@@ -29,7 +29,7 @@ fields:
         format: markdown
     label: URL
   config:
-    min: 3
+    min: 
     max: 
     labelField: 
   label: Highlights
