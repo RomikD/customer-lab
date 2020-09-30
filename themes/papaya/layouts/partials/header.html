@@ -32,7 +32,13 @@
     <div class="info">
        <div class="v-1110">
            <div class="title">
-               <h1></h1>
+               <h1> {% for block in page.page_sections %}
+                   {% assign template = block.template %}
+                   {% case template %}
+                   {% when 'highlights' %}
+                   {% include blocks_{{template}}.html %}
+                   {% endcase %}
+                   {% endfor %} </h1>
            </div>
            <div class="text">
                <p>CustomerLab is the best affiliate network to get new clients.CustomerLab is the best affiliate network to get new clients.</p>
