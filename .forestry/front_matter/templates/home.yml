@@ -11,12 +11,14 @@ fields:
 - name: weight
   type: number
   label: weight
-  description: kjhgfdsrtghjhgffff
-  default: 0
+  description: '2121'
+  default: 129876543
   required: true
   config:
     min: 
     max: 
     step: 
+    required: true
 pages:
 - content/test.md
+- content/test.md-copy.md
