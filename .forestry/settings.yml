@@ -4,8 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
+- type: document
+  path: pages
   label: Pages
+  match: "**/*"
+  read_only: true
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
