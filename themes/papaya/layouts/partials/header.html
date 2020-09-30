@@ -32,13 +32,15 @@
     <div class="info">
        <div class="v-1110">
            <div class="title">
-               <h1> {% for block in page.page_sections %}
-                   {% assign template = block.template %}
-                   {% case template %}
-                   {% when 'highlights' %}
-                   {% include blocks_{{template}}.html %}
-                   {% endcase %}
-                   {% endfor %} </h1>
+               <h1>{% for highlight in block.highlights %}
+                   <div class="col-md-4">
+                       <h4>{{highlight.headline}}</h4>
+                       {{ highlight.description | markdownify}}
+                       {% if highlight.url %}
+                       <a href="{{highlight.url}}" class="btn btn-large btn-primary">Click Here</a>
+                       {% endif %}
+                   </div>
+                   {% endfor %}   </h1>
            </div>
            <div class="text">
                <p>CustomerLab is the best affiliate network to get new clients.CustomerLab is the best affiliate network to get new clients.</p>
