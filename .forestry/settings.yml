@@ -4,8 +4,7 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: Pages
+- type: heading
   label: Pages
 upload_dir: static/uploads
 public_path: "/uploads"
