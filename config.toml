@@ -6,25 +6,25 @@ theme = "papaya"
 title = "Homepage"
 url = "dxszc"
 [[menu.main]]
-name = "Contact us"
-pre = "partners"
-url = "/contact-us/"
-weight = 4
-[[menu.main]]
-name = "Partners"
-pre = "partners"
-url = "/partners/"
-weight = 3
+name = "Services"
+pre = "services"
+url = "/services/"
+weight = 1
 [[menu.main]]
 name = "Industries"
 pre = "industries"
 url = "/industries/"
 weight = 2
 [[menu.main]]
-name = "Services"
-pre = "services"
-url = "/services/"
-weight = 1
+name = "Partners"
+pre = "partners"
+url = "/partners/"
+weight = 3
+[[menu.main]]
+name = "Contact us"
+pre = "partners"
+url = "/contact-us/"
+weight = 4
 [params]
 authorName = "made by Roma"
 dateFormat = "Jan 2, 2006"
